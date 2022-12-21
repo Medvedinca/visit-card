@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     background: url(marble-texture.jpg);
     background-size: 100% auto;
+    will-change: transform;
 }
 
 .card{
@@ -133,4 +134,5 @@ body{
     opacity: 0.4;
     z-index: 9;
     pointer-events: none;
+    will-change: transform;
 }
